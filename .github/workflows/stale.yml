@@ -13,9 +13,10 @@ jobs:
     - uses: actions/stale@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'This issue has not been updated in the last TBD days'
+        stale-issue-message: 'This issue has not been updated in the last testing days'
         stale-pr-message: 'This PR has not been updated in the last TBD days'
         stale-issue-label: 'stale'
         stale-pr-label: 'stale'
         days-before-stale: 0
         days-before-close: -10
+        exempt-issue-label: 'stale'
