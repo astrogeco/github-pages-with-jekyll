@@ -19,3 +19,4 @@ jobs:
         stale-pr-label: 'stale'
         days-before-stale: 0
         days-before-close: -1
+        exempt-issue-label: 'stale'  
